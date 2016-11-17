@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.clear{
+	clear: both;
+}
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header{
+	margin: 5px 0px;
+}
+header table{
+	width: 100%;
+	border: 1px solid #d7d7d7;
+}
+header table td{
+	padding: 5px 20px;
+}
+#main{
+	margin: 5px 0px;
+	position: relative;
+}
+/***** LEFT *******/ 
+#content{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 75%;
+	float: left;
+}
+#content legend{
+	text-align: right;
+}
+#question{	
+}
+#question img{
+	height: 450px;
+}
+/***** RIGHT *******/ 
+#answers {
+	height: 500px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 25%;
+	float: left;
+	padding: 0px 3px;
+	overflow: scroll;	
+}
+#answers table {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-top: 5px;
+}
+#answers table tr{
+	border-bottom: 1px solid #d7d7d7;
+}
+#answers th{
+	border: 1px solid black;
+}
+#answers td{
+	border-left: 1px solid  #d7d7d7;
+	border-right: 1px solid  #d7d7d7;
+	width: 50%;
+}
+#answers a{
+	font-weight: bold;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+}
+#answers a:hover{
+	background: #868695;
+}
+/********* SELECT *************/ 
+#selects{
+	position: absolute;
+	bottom: 70px;
+	right: 30%;
+	color: red;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+#controls{
+	position: absolute;
+	bottom: 30px;
+	right: 30%;
+}
+#selects button, #controls button{
+	font-weight: bold;
+	background: black;
+	color: white;
+}
+#selects button{
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+}
+#selects button:hover, #controls button:hover{
+	background: #757575;
+	cursor: pointer;
+}
+
+#controls button{
+	width: 45px;
+	height: 25px;
+}
+
+#controls #enter{
+	color: white;
+	background: green;
+	width: 80px;
+}
+
+
+
+
+
+
+
